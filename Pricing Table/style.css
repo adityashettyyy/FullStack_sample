@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f4f4f4;
+}
+
+.pricing {
+    display: flex;
+    gap: 20px;
+}
+
+.plan {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 200px;
+}
+
+.plan h2 {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
